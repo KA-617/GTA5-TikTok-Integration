@@ -348,7 +348,7 @@ public class GTAVWebhookScript : Script
                 }
             case "skydive":
                 {
-                    Game.Player.Character.Position = new Vector3(Game.Player.Character.Position.X, Game.Player.Character.Position.Y, Game.Player.Character.Position.Z + 400);
+                    Game.Player.Character.Position = new Vector3(Game.Player.Character.Position.X, Game.Player.Character.Position.Y, Game.Player.Character.Position.Z + 1200);
                     Game.Player.Character.Task.Skydive();
                     Logger.Log("Skydive started");
                     break;
